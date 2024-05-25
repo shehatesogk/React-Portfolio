@@ -3,7 +3,7 @@ import "./WorkExperience.css";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import { WORK_EXPERIENCE_EN, WORK_EXPERIENCE_RU } from "../../utils/data";
 import Slider from "react-slick";
-import { LanguageContext } from '../../LanguageContext'; // Импортируем контекст языка
+import { LanguageContext } from '../../LanguageContext';
 
 const WorkExperience = () => {
   const { language } = useContext(LanguageContext);
